@@ -1,14 +1,11 @@
+	<!-- CDN: http://g.tbcdn.cn/demo/kissy_demo/0.1.0/config.js -->
+	<script src="../../config.js"></script>
+</head>
+<body>
 
-<!--引用的本地文在构建时件会被抽取和合并-->
-<script src="../../mods/loader/index.js"></script>
-<link href="../../mods/loader/index.css" rel="stylesheet" />
+	<!--Your Code Here-->
+	<!--#include virtual="./path/to/include/file.html" -->
+	<iframe width="100%" height="100%"  src="../../mods/loader/index.html"></iframe>
+</body>
+</html>
 
-模块正文从这里开始
-
-<!--#include virtual="other-pages.html" -->
-
-<script>
-	KISSY.use('kissy_demo/mods/loader/index', function(S, Loader) {
-		new Loader();
-	});	
-</script>

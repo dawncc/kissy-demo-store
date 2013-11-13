@@ -8,10 +8,16 @@
 	<script src="../../config.js"></script>
 </head>
 <body>
-
-	<!--Your Code Here-->
-	<!--#include virtual="./index.html" -->
-
+	<button id='k12'>启动pageNotification</button>
+	<script>
+	KISSY.use('core', function (S) {
+		KISSY.one("#k12").on("click", function () {
+			KISSY.use("kissy_demo/mods/loader/index", function (S,  PN) {
+			 PN["info"]("I do not think that means what you think it means.");
+			});
+		});
+	});
+	</script>
 </body>
 </html>
 

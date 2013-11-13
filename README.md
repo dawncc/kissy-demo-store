@@ -36,7 +36,7 @@
 
 版本变更注释
 
-```javascipt
+```javascript
 /**
  * changes:
  * author: dawncc
